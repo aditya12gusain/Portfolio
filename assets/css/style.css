@@ -863,11 +863,17 @@ Increase the width of the contact form
   }
 }
 
+[data-aos^="fade"][data-aos^="fade"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+  width: 100%;
+}
+
 /* 
 Increase the width of the contact form
 */
 
-.row.aos-init.aos-animate.contact {
+.contactme.row.aos-init.aos-animate {
   width: 245%;
 }
 
