@@ -858,9 +858,7 @@ section {
 Increase the width of the contact form
 */
 
-[data-aos^="fade"][data-aos^="fade"].aos-animate {
-  opacity: 1;
-  transform: translateZ(0);
+.row.aos-init.aos-animate.contact {
   width: 245%;
 }
 
