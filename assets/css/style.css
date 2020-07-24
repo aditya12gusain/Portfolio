@@ -479,6 +479,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #000;
 }
 
 .resume .resume-item ul {
@@ -673,6 +674,9 @@ section {
 .contact {
   padding-bottom: 130px;
   background-color: #000;
+}
+.form-group label{
+  color: #000;
 }
 
 .contact .info {
